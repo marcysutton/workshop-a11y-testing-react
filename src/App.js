@@ -6,7 +6,18 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Dropdown />
+      <main>
+        <Dropdown activatorText = 'Year' items={[{
+          text: '2020',
+          url: '#'
+        },{
+          text: '2019',
+          url: '#'
+        }, {
+          text: '2018',
+          url: '#'
+        }]} />
+      </main>
     </div>
   );
 }

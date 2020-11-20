@@ -1,4 +1,3 @@
-import React from 'react'
 import { render, fireEvent } from '@testing-library/react'
 
 import Dropdown from "../dropdown"
@@ -29,7 +28,7 @@ describe('Dropdown', () => {
 
     fireEvent.click(activator)
 
-    const dropdownList = dropdown.getByTestId('dropdown-itemList')
+    const dropdownList = dropdown.getByTestId('dropdown-list')
 
     const firstAnchor = dropdownList.querySelector('a')
     expect(firstAnchor).toHaveFocus()
@@ -50,7 +49,7 @@ describe('Dropdown', () => {
     activator.focus()
     fireEvent.click(activator)
 
-    const dropdownList = dropdown.getByTestId('dropdown-itemList')
+    const dropdownList = dropdown.getByTestId('dropdown-list')
 
     const firstAnchor = dropdownList.querySelector('a')
     expect(firstAnchor).toHaveFocus()

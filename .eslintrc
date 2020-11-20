@@ -1,0 +1,13 @@
+{
+    "plugins": ["testing-library", "jsx-a11y"],
+    "rules": {
+        "jsx-a11y/no-redundant-roles": 0
+    },
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}

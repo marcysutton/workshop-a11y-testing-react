@@ -1,47 +1,78 @@
-.dropdown-wrap {
+$bgColorContentAreas: #fff;
+$colorBody: #F5F6F8;
+$colorBorders: #d1d6de;
+$colorLinks: #fff;
+$colorButtonBG: rgb(40, 121, 98);
+$colorChevrons: #a4acc0;
+$borderWidth: 1px;
+$borderRadius: 7px;
+
+.dropdown, .dropdown * {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.dropdown {
+    border-radius: $borderRadius;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1;
     position: relative;
-}
-.dropdown-activator {
-    align-items: center;
-    background-color: inherit;
-    border: 1px solid transparent;
-    border-color: #ccc;
-    color: inherit;
-    display: flex;
-    font-size: inherit;
-    max-width: 160px;
-    padding: 1em;
 
-    &:after {
-        content: "";
-        border-bottom: 1px solid #000;
-        border-right: 1px solid #000;
-        height: 0.5em;
-        margin-left: 0.75em;
-        width: 0.5em;
-        transform: rotate(45deg);
-    }
-}
-.dropdown-itemList {
-    background-color: #ececec;
-    color: black;
-    display: none;
-    margin: 0;
-    min-width: 160px;
-    padding: 0;
-    position: absolute;
-
-    li {
-        list-style: none;
-        margin: 0;
-
-        a, a:link {
-            display: block;
-            padding: 0.5em;
-        }
-    }
-
-    &.active {
+    &.active .dropdown-list {
         display: block;
     }
 }
+.dropdown-activator {
+    background-color: $colorButtonBG;
+    border: none;
+    border-radius: $borderRadius;
+    color: $colorLinks;
+    font-size: 0.75em;
+    padding: 0.25rem 0.5rem;
+    overflow: hidden;
+}
+.dropdown.active button .icon {
+    transform: rotate(180deg);
+}
+.dropdown-list {
+    border: $borderWidth solid $colorBorders;
+    border-radius: 0 0 $borderRadius $borderRadius;
+    box-shadow: 1px 1px 2px #ccc;
+    display: none;
+    font-size: 1rem;
+    list-style: none;
+    margin: 0 0.25rem;
+    padding: 0;
+    position: absolute;
+    width: 93%;
+
+    li {
+        border-bottom: $borderWidth solid $colorBorders;
+
+        a, a:link {
+            color: inherit;
+            display: block;
+            padding: 0.5em 0.25em;
+            text-decoration: none;
+            
+            &:hover {
+                background-color: $colorBody;
+            }
+        }
+        &:last-of-type {
+            border-bottom: 0;
+        }
+    }
+}
+.icon {
+    // background-color: $colorBorders;
+    display: inline-block;
+    height: 100%;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    width: 10px;
+}
+.icon svg path {
+    fill: currentColor;
+}
+
