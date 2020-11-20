@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/workshop-a11y-testing-react/static/css/main.277d8b75.chunk.css",
+    "main.js": "/workshop-a11y-testing-react/static/js/main.8c050f5f.chunk.js",
+    "main.js.map": "/workshop-a11y-testing-react/static/js/main.8c050f5f.chunk.js.map",
+    "runtime-main.js": "/workshop-a11y-testing-react/static/js/runtime-main.f9f3b4e0.js",
+    "runtime-main.js.map": "/workshop-a11y-testing-react/static/js/runtime-main.f9f3b4e0.js.map",
+    "static/js/2.dc14d557.chunk.js": "/workshop-a11y-testing-react/static/js/2.dc14d557.chunk.js",
+    "static/js/2.dc14d557.chunk.js.map": "/workshop-a11y-testing-react/static/js/2.dc14d557.chunk.js.map",
+    "static/js/3.1f35f684.chunk.js": "/workshop-a11y-testing-react/static/js/3.1f35f684.chunk.js",
+    "static/js/3.1f35f684.chunk.js.map": "/workshop-a11y-testing-react/static/js/3.1f35f684.chunk.js.map",
+    "index.html": "/workshop-a11y-testing-react/index.html",
+    "static/css/main.277d8b75.chunk.css.map": "/workshop-a11y-testing-react/static/css/main.277d8b75.chunk.css.map",
+    "static/js/2.dc14d557.chunk.js.LICENSE.txt": "/workshop-a11y-testing-react/static/js/2.dc14d557.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9f3b4e0.js",
+    "static/js/2.dc14d557.chunk.js",
+    "static/css/main.277d8b75.chunk.css",
+    "static/js/main.8c050f5f.chunk.js"
+  ]
+}
