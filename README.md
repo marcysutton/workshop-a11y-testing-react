@@ -5,6 +5,7 @@ Learn to test web applications for accessibility with React, Jest, and Cypress f
 Presented at:
 
 - [Smashing Workshop](https://smashingconf.com/online-workshops/workshops/marcy-sutton-nov)
+- [Chrome Dev Summit 2020](https://developer.chrome.com/devsummit/schedule/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
