@@ -1,4 +1,4 @@
-# Frontend Accessibility Masterclass Testing App
+# JavaScript Accessibility Testing App
 
 Learn to test web applications for accessibility with React, Jest, and Cypress from independent developer and teacher Marcy Sutton.
 
